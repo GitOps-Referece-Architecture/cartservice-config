@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: gcr.io/google-samples/microservices-demo/cartservice
+  repository: peishu/cartservice
   tag: e4ab1f14497006eb563df33c4b1347c2c8df7723
   pullPolicy: IfNotPresent
 nameOverride: ""
