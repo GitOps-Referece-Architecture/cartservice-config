@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: peishu/cartservice
-  tag: e4ab1f14497006eb563df33c4b1347c2c8df7723
+  tag: 3fffe7166f2db5e4c849a602a991ddd9831cebf9
   pullPolicy: IfNotPresent
 nameOverride: ""
 fullnameOverride: ""
