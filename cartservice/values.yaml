@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: gcr.io/google-samples/microservices-demo/cartservice
-  tag: 8a162924b8eb066aa070e97d78ce5f36e2d271ca
+  tag: e4ab1f14497006eb563df33c4b1347c2c8df7723
   pullPolicy: IfNotPresent
 nameOverride: ""
 fullnameOverride: ""
