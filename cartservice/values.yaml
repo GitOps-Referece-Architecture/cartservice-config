@@ -1,17 +1,13 @@
 replicaCount: 1
-
 image:
   repository: gcr.io/google-samples/microservices-demo/cartservice
-  tag: v0.1.2
+  tag: 8a162924b8eb066aa070e97d78ce5f36e2d271ca
   pullPolicy: IfNotPresent
-
 nameOverride: ""
 fullnameOverride: ""
-
 service:
   type: ClusterIP
   port: 7070
-
 resources:
   requests:
     cpu: 200m
